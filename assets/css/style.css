@@ -1,0 +1,312 @@
+/* global stuff */
+
+html, body{
+    height:100%;
+}
+
+
+p {
+    padding:5px;
+}
+
+body {
+    
+    background-color: #dddddd;
+
+}
+
+/* header stuff */
+
+header {
+    background-color: #ffffff;
+    height: 65px;
+    border-bottom: 4px solid #cccccc;
+    margin:0 auto;   
+}
+.container {
+    width:960px;
+    margin:0 auto;
+    
+}
+
+.yourname {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 35px;
+    padding: 15px;
+    float:left;
+}
+
+nav  {
+    float: right;
+}
+
+nav ul{
+   margin:0;
+   padding:0;
+   list-style: none; 
+}
+
+nav li{
+   display: inline-block;
+   margin-left:50px;
+   padding-top:25px;
+}
+nav li a {
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+nav li a:hover {
+   
+    color: #aaaaaa;
+    
+}
+
+/* about stuff */
+
+.main {
+    background-color: #ffffff;
+    background-image: url('assets/images/circuit.png');
+   
+    width: 960px;
+    margin:0 auto;
+    margin-top:50px;
+}
+
+.content{
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding:10px;
+    color: #cccccc;
+    line-height: 1.5em;
+   
+    background-color: #ffffff;
+}
+
+.wrapper{
+    background-color: #ffffff;
+    border-top: 4px solid  #cccccc;
+    padding-top:10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.aboutme {
+    background-color: #ffffff;
+    width: 918px;
+    color: #4aaaa5;
+    padding: 22px;
+    
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+    float:left;
+    margin: 10px;
+    display:inline-block;
+}
+
+.gallery img {
+    float:left;
+    margin: 20px;
+    display:inline-block;
+
+
+}
+
+.gallery {
+    background-color: #ffffff;
+    border-top: 4px solid  #cccccc;
+    padding-top:5px;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+
+}
+
+form label{
+    font-size: 20px;
+    color:#666666;
+   
+}
+
+form input, textarea{
+    font-size: 24px;
+    width:100%;
+   
+}::placeholder{
+    color:#cccccc;
+    padding-left: 10px;
+
+}
+
+
+
+.textarea {
+    height:200px;
+}
+
+.button{
+    width: 20%;
+    background-color: #4aaaa5;
+    padding:5px;
+    color: #ffffff;
+}
+
+/* porfolio page */
+
+.photopod {
+    position: relative;
+    text-align: center;
+    margin:0;
+    
+}
+
+.pics{
+    position: relative;
+    text-align: center;
+}
+
+.piclabelbiker{
+    position: absolute;
+    background-color: #4aaaa5;
+    top: 138px;
+    left: 21px;
+    padding-left: 60px;
+    padding-right: 53px;
+    
+}.piclabelceiling{
+    position: absolute;
+    background-color: #4aaaa5;
+    top: 138px;
+    left: 21px;
+    padding-left: 53px;
+    padding-right: 48px;
+    
+}
+
+.piclabelcliff {
+    position: absolute;
+    background-color: #4aaaa5;
+    top: 138px;
+    left: 21px;
+    padding-left: 59px;
+    padding-right: 63px;
+    
+}
+.piclabelclouds{
+    position: absolute;
+    background-color: #4aaaa5;
+    top: 138px;
+    left: 21px;
+    padding-left: 66px;
+    padding-right: 35px;
+    
+}
+.piclabelsurf{
+    position: absolute;
+    background-color: #4aaaa5;
+    top: 138px;
+    left: 21px;
+    padding-left: 66px;
+    padding-right: 54px;
+    
+}
+.piclabelswim{
+    position: absolute;
+    background-color: #4aaaa5;
+    top: 138px;
+    left: 21px;
+    padding-left: 35px;
+    padding-right: 42px;
+    
+}
+
+/* footer  */
+
+
+#envelope{
+    min-height: 100%;
+
+}
+
+#footer {
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    position:relative;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+    margin-top: -50px;
+    padding-top:10px;
+}
+
+/* Media query */
+
+@media screen and (max-width: 980px) {
+    body {
+      background-color: lightblue;
+
+    }
+    nav ul {
+       
+        margin-right: 100px;
+    }
+
+    .main{
+
+        width:800px;
+    }
+
+    .aboutme {
+        
+        width: 756px;
+        
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: rgb(168, 206, 0)206, 0);
+    }
+
+    nav ul {
+       
+        margin-right: 100px;
+    }
+
+    .main{
+
+        width:640px;
+    }
+
+    .aboutme {
+        
+        width: 600px;
+        
+    }
+  }
+  }
+
+  @media screen and (max-width: 640px) {
+    body {
+      background-color: rgb(230, 14, 86);
+    }
+
+    nav{
+        float:left;
+    }
+
+    nav li{
+        display:block;
+    }
+  }
