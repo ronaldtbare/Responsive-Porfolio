@@ -306,7 +306,16 @@ form input, textarea{
         float:left;
     }
 
-    nav li{
+    nav li a{
         display:block;
+    }
+
+    header{
+        display:block;
+        height:200px;
+    }
+    .container{
+        display:block;
+        width:600px;
     }
   }
