@@ -15,6 +15,13 @@ body {
 
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
 /* header stuff */
 
 header {
@@ -276,7 +283,7 @@ form input, textarea{
 
   @media screen and (max-width: 768px) {
     body {
-      background-color: rgb(168, 206, 0)206, 0);
+      background-color: rgb(168, 206, 0);
     }
 
     nav ul {
@@ -295,7 +302,7 @@ form input, textarea{
         
     }
   }
-  }
+  
 
   @media screen and (max-width: 640px) {
     body {
@@ -303,19 +310,31 @@ form input, textarea{
     }
 
     nav{
+        display:block;
         float:left;
     }
 
+    nav ul{
+        margin-left:0;
+        display:block;
+    }
     nav li a{
         display:block;
+        
     }
 
     header{
         display:block;
-        height:200px;
+        height:auto;
     }
     .container{
         display:block;
         width:600px;
     }
+
+    main{
+        width:300px;
+    }
+
+    
   }
